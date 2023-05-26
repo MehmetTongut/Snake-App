@@ -1,0 +1,52 @@
+name: untitled12
+description: A new Flutter project.
+
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+version: 1.0.0+1
+
+environment:
+  sdk: '>=2.18.0 <3.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_tindercard: ^0.2.0
+  cupertino_icons: ^1.0.2
+
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+
+  flutter_lints: ^2.0.0
+
+
+flutter:
+  assets:
+    - assets/snake.jpg
+    - assets/agri_engeregi.jpg
+    - assets/baran_engeregi.jpg
+    - assets/beyazbantlı.jpg
+    - assets/bolkar.jpg
+    - assets/col_kobrasi.jpg
+    - assets/coruh_engeregi.jpg
+    - assets/cukurbasli.jpg
+    - assets/da.jpg
+    - assets/kafkas.jpg
+    - assets/kedigozlu_yılan.jpg
+    - assets/koca_engerek.jpg
+    - assets/kucuk_eng.jpg
+    - assets/seritli_engerek.jpg
+    - assets/wagner.jpg
+    - assets/koca_engerek2.jpg
+flutter_icons:
+  android: "launcher_icon"  # Android için ikon adı
+  ios: true  # iOS için otomatik olarak ikon oluşturulsun mu
+  image_path: "assets/icon/app_snake.png"  # İkonun bulunduğu dosya yolu
+
+
+
+  uses-material-design: true
+
+
